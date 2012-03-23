@@ -42,7 +42,7 @@ class PluginBlocktypePlusone extends SystemBlocktype {
     }
 
     public static function get_categories() {
-        return array('social');
+        return array('general');
     }
     public static function render_instance(BlockInstance $instance, $editing=false) {
         $configdata = $instance->get('configdata');
